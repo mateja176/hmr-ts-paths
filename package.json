@@ -1,7 +1,30 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "hmr-ts-paths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mytee306/hmr-ts-paths.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mytee306/hmr-ts-paths/issues"
+  },
+  "homepage": "https://github.com/mytee306/hmr-ts-paths#readme",
   "devDependencies": {
-    "lerna": "^3.14.1"
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "format": "^0.2.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
